@@ -1,0 +1,276 @@
+{
+  "expo": {
+    "name": "TruHeight",
+    "slug": "TruHeight",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "truheight",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "deploymentTarget": "16.0",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to take profile photos.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to select profile photos."
+      },
+      "entitlements": {
+        "aps-environment": "development"
+      },
+      "bundleIdentifier": "com.app.truheight"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#474140"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.app.truheight"
+    },
+    "plugins": [
+      ["expo-notifications", { "enableBackgroundRemoteNotifications": true }],
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/Butler_Black.otf",
+            "./src/assets/fonts/Butler_Bold.otf",
+            "./src/assets/fonts/Butler_ExtraBold.otf",
+            "./src/assets/fonts/Butler_Light.otf",
+            "./src/assets/fonts/Butler_Medium.otf",
+            "./src/assets/fonts/Butler_Regular.otf",
+            "./src/assets/fonts/Butler_Ultra_Light.otf",
+            "./src/assets/fonts/OwnersText-Black.ttf",
+            "./src/assets/fonts/OwnersText-BlackItalic.ttf",
+            "./src/assets/fonts/OwnersText-Bold.ttf",
+            "./src/assets/fonts/OwnersText-BoldItalic.ttf",
+            "./src/assets/fonts/OwnersText-Light.ttf",
+            "./src/assets/fonts/OwnersText-LightItalic.ttf",
+            "./src/assets/fonts/OwnersText-Medium.ttf",
+            "./src/assets/fonts/OwnersText-MediumItalic.ttf",
+            "./src/assets/fonts/OwnersText-Regular.ttf",
+            "./src/assets/fonts/OwnersText-RegularItalic.ttf",
+            "./src/assets/fonts/OwnersText-XLight.ttf",
+            "./src/assets/fonts/OwnersText-XLightItalic.ttf"
+          ],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Butler-Black",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/Butler_Black.otf",
+                    "weight": 900
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Butler-Bold",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/Butler_Bold.otf",
+                    "weight": 700
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Butler-ExtraBold",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/Butler_ExtraBold.otf",
+                    "weight": 800
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Butler-Light",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/Butler_Light.otf",
+                    "weight": 300
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Butler-Medium",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/Butler_Medium.otf",
+                    "weight": 500
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Butler-Regular",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/Butler_Regular.otf",
+                    "weight": 400
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Butler-UltraLight",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/Butler_Ultra_Light.otf",
+                    "weight": 200
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-Black",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-Black.ttf",
+                    "weight": 900
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-BlackItalic",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-BlackItalic.ttf",
+                    "weight": 900,
+                    "style": "italic"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-Bold",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-Bold.ttf",
+                    "weight": 700
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-BoldItalic",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-BoldItalic.ttf",
+                    "weight": 700,
+                    "style": "italic"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-Light",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-Light.ttf",
+                    "weight": 300
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-LightItalic",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-LightItalic.ttf",
+                    "weight": 300,
+                    "style": "italic"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-Medium",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-Medium.ttf",
+                    "weight": 500
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-MediumItalic",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-MediumItalic.ttf",
+                    "weight": 500,
+                    "style": "italic"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-Regular",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-Regular.ttf",
+                    "weight": 400
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-RegularItalic",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-RegularItalic.ttf",
+                    "weight": 400,
+                    "style": "italic"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-XLight",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-XLight.ttf",
+                    "weight": 200
+                  }
+                ]
+              },
+              {
+                "fontFamily": "OwnersText-XLightItalic",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/OwnersText-XLightItalic.ttf",
+                    "weight": 200,
+                    "style": "italic"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash_Icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#474140",
+          "dark": {
+            "backgroundColor": "#474140"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9511ae64-9fc5-4c5a-b769-1e26fa1336f9"
+      },
+      "apiBaseUrl": "https://api-truheight.techticcommerce.com/api/v1"
+    }
+  }
+}

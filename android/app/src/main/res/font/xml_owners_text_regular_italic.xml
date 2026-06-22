@@ -1,0 +1,3 @@
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+  <font app:font="@font/owners_text_regular_italic" app:fontStyle="italic" app:fontWeight="400"/>
+</font-family>

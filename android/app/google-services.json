@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841280498802",
+    "project_id": "quiz-project-8ddb5",
+    "storage_bucket": "quiz-project-8ddb5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841280498802:android:b666d6efdc0164612ee6eb",
+        "android_client_info": {
+          "package_name": "com.app.truheight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Zm7kuilq--prbU2vi_pzNMXJVu298bE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
